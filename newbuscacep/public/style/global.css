@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 2rem 2rem 6rem;
+  height: 75%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container .main {
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+
+
+@media (min-width:576px){
+  h1{
+    font-size: 4rem;
+    color: #007f00;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+@media(max-width: 575px){
+  h1 {
+  font-size: 3rem;
+  color: #007f00;
+  margin: 1rem;
+  text-align: center;
+}
+
+
+}
+button {
+  outline: none;
+  border: none;
+}
+
+.container .main,
+.pesquisar {
+  display: flex;
+  align-items: center;
+}
+
+.pesquisar {
+  width: 15rem;
+  height: 6rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  align-self: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  gap: 1rem;
+  background-color: #00a300;
+}
+
+.pesquisar .iconepesquisar {
+  width: 4rem;
+  height: 4rem;
+}

@@ -55,7 +55,6 @@ export default function Home() {
                 <div className="tabledata">{ardata.logradouro}</div>
                 <div className="tabledata">{ardata.bairro}</div>
                 <div className="tabledata">{`${ardata.localidade}/${ardata.uf}`}</div>
-                //adicionar item e fazer um toggle pra deixar a descida mais fluida
                 <div className="tabledata">{ardata.cep}</div>
               </div>
             )}

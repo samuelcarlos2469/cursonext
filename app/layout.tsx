@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/public/components/header";
 
 //'font opmization' do Next
 //importando fonte e usando subset Latin e pré definindo peso
@@ -31,7 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <div className="container">
+          <Header />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

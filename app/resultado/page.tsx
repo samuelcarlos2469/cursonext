@@ -1,6 +1,5 @@
 import Link from "next/link"; //para criar links internos na aplicação
 import "@/public/style/style.css";
-import Header from "@/public/components/header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faRotateLeft,

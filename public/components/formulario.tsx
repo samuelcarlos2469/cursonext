@@ -5,7 +5,7 @@
 import { useState } from "react";
 
 //usada para processar o formulário ao ser submetido
-import { buscar } from "@/app/middleware/action";
+//import { buscar } from "@/app/middleware/action";
 
 //pra importar ícones da biblioteca, sendo o import debaixo para um ícone especifico
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +14,7 @@ import { faMagnifyingGlassLocation } from "@fortawesome/free-solid-svg-icons";
 export default function Formulario() {
   return (
     //usa a função buscar pra lidar com o form ao ser submetido
-    <form className="form" action={buscar}>
+    <form className="form">
       <div className="rowwrap">
         <label htmlFor="pesquisa">Pesquisar utilizando:</label>
         {/*O valor selecionado é controlado pelo estado opcao, e a alteração dispara a função mudarOpcao*/}
